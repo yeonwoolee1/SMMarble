@@ -23,6 +23,7 @@ static char smmNodeName[SMMNODE_TYPE_MAX][MAX_CHARNAME]={
 	"festival",
 };
 
+//print node name 
 char* smmObj_getTypeName(int type)
 {
 		return (char*)smmNodeName[type];
